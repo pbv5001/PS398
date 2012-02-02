@@ -1,0 +1,6 @@
+import pvhw2
+account= pvhw2.Portf()
+account.addcash(10000)
+account.withdrawcash(25)
+account.addstock("TM",4)
+account.sellstock("TM",2)
