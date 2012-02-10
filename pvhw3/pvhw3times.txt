@@ -1,0 +1,20 @@
+import csv
+import random
+import math
+import pvhw3
+
+combtimes=[]
+stoogetimes=[]
+quicktimes=[]
+
+
+
+def random_ints(num, lower=0, upper=9):
+        return [random.randrange(lower,upper+1) for i in range(num)]
+     
+    print random_ints(4)
+
+
+
+#[a for a in sample(xrange(1000),1000) for _ in range(1000/1000)]
+
