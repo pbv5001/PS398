@@ -16,7 +16,7 @@ class List:
 		self.length=0 #start list length at 0
 		
 	def addNode(self, x):
-		if self.firstnode==None:   #If statement to check if first node exists
+		if  self.firstnode==None:   #If statement to check if first node exists
 			self.firstnode=Node(x, None)  #sets first node to x if first node is empty
 			self.lastnode=self.firstnode #sets last node to first node for event of 1 element
 			self.length+=1
